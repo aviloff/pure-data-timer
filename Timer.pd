@@ -1,0 +1,18 @@
+#N canvas 910 266 349 151 10;
+#X obj 1 3 cnv 15 345 145 empty empty empty 20 12 0 14 -1025 -66577
+0;
+#X obj 39 26 cnv 15 270 95 empty empty empty 20 12 0 14 -92447 -66577
+0;
+#X obj 55 35 nbx 2 22 -1e+37 1e+37 0 0 empty Thl h 54 13 0 21 -17991
+-204786 -1 0 256;
+#X obj 39 100 cnv 15 270 22 empty empty empty 20 12 0 14 -71383 -66577
+0;
+#X obj 145 34 nbx 2 22 -1e+37 1e+37 0 0 empty Tml m 54 13 0 21 -17991
+-204786 -1 14 256;
+#X obj 229 34 nbx 2 22 -1e+37 1e+37 0 0 empty Tsl s 54 13 0 21 -17991
+-204786 -1 14 256;
+#X obj 237 103 abs/pdtimer;
+#X obj 54 70 cnv 15 20 20 empty time_up empty 30 30 0 14 -3531 -262144
+0;
+#X obj 89 69 nbx 2 22 -1e+37 1e+37 0 0 TsetMin TsetInit set 54 13 0
+21 -17927 -200689 -1 17 256;
