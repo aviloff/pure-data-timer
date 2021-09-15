@@ -6,8 +6,11 @@ Timer written in Pure Data, created thanks to the brilliant work, suggestions an
 ---
 
 § - start
+
 ± - reset
+
 q/w - add/reduce by 1 minute
+
 shift q/w - add/reduce by 10 minutes
 
 ---
